@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Installing CasADi on a Raspberry Pi"
+date:   2019-12-04 19:46:00 -0300
+categories: CasADi [Raspberry Pi]
+---
+This is a brief tutorial on how to install CasADi on a Raspberry Pi.
