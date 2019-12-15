@@ -24,6 +24,10 @@ wpa_passphrase "SSID" "PASSWORD" >> /etc/wpa_supplicant/wpa_supplicant.conf``
 
 and then edit `/etc/wpa_supplicant/wpa_supplicant.conf` once again to remove the clear text password for the desired SSID.
 
+# Access your new Raspbian installation
+
+`ssh pi@raspberrypi.local`
+
 
 ## References
 * [Headless Raspberry Pi Setup](https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0)
