@@ -27,3 +27,8 @@ In my notebook the `cmake` command was
 
 ``cmake -DPYTHON_EXECUTABLE=/usr/bin/python2 -DPYTHON_INCLUDE_DIR=/usr/include/python2.7 -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython2.7.so -DNUMPY_PATH=/usr/include/python2.7/numpy -DWITH_PYTHON=ON -DWITH_QPOASES=ON -DWITH_LAPACK=ON -DWITH_IPOPT=ON -DWITH_HSL=ON -DWITH_CLANG=ON -DWITH_OPENCL=ON -DWITH_DL=ON -DWITH_BLASFEO=ON -DWITH_BUILD_BLASFEO=ON -DWITH_MUMPS=ON -DWITH_DOC=ON -DWITH_EXAMPLES=ON ..``
 
+To install CasADi locally, we can follow [Greg's local install workflow
+](https://github.com/casadi/casadi/wiki/greg's-local-install-workflow)
+
+``cmake -DPYTHON_EXECUTABLE=/usr/bin/python2 -DPYTHON_INCLUDE_DIR=/usr/include/python2.7 -DPYTHON_LIBRARY=/usr/lib/arm-linux-gnueabihf/libpython2.7.so -DNUMPY_PATH=/usr/include/python2.7/numpy -DWITH_PYTHON=ON -DWITH_QPOASES=ON -DWITH_LAPACK=ON -DWITH_IPOPT=ON -DWITH_HSL=ON -DWITH_CLANG=ON -DWITH_OPENCL=ON -DWITH_DL=ON -DWITH_BLASFEO=ON -DWITH_BUILD_BLASFEO=ON -DWITH_MUMPS=OFF -DPYTHON_PREFIX=/usr/local/casadi-3.5.1 -DCMAKE_INSTALL_PREFIX=/usr/local/casadi-3.5.1 ..``
+
