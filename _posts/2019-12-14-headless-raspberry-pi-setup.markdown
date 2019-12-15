@@ -25,5 +25,5 @@ and then edit `/etc/wpa_supplicant/wpa_supplicant.conf` once again to remove the
 
 
 ## References
-[Headless Raspberry Pi Setup](https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0)
-[Configure WiFi connection in Raspbian Stretch Lite on Raspberry Pi](http://coffeetime.solutions/configure-wifi-connection-raspbian-stretch-lite-raspberry-pi/)
+* [Headless Raspberry Pi Setup](https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0)
+* [Configure WiFi connection in Raspbian Stretch Lite on Raspberry Pi](http://coffeetime.solutions/configure-wifi-connection-raspbian-stretch-lite-raspberry-pi/)
