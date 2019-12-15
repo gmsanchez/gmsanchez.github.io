@@ -5,6 +5,7 @@ date:   2019-12-14 23:46:00 -0300
 categories: Raspbian [Raspberry Pi]
 ---
 
+This is useful if you are planning on install Raspbian and you can't find an USB keyboard in your house.
 
 # Add “SSH” File to the SD Card Root
 Enable SSH by placing a file named “ssh” (without any extension) onto the boot partition of the SD card
